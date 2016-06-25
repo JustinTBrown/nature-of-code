@@ -20,7 +20,8 @@ function draw() {
     yspeed = yspeed * -1;
   }
 
-  fill(70);
+  fill(110);
+  stroke(2);
   ellipse(x,y,100,100);
   // ellipse(50, 50, 80, 80);
   // if (mouseIsPressed) {
